@@ -1,0 +1,100 @@
+body {
+    background: rgb(170, 41, 215);
+    background: linear-gradient(0deg, rgba(170, 41, 215, 1) 0%, rgba(141, 37, 178, 1) 16%, rgba(112, 29, 141, 1) 39%, rgba(82, 21, 104, 1) 60%, rgba(48, 11, 60, 1) 81%, rgba(3, 0, 4, 1) 100%);
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+    font-size: 20px;
+    color: white;
+}
+
+
+/*             HEADER                */
+.header {
+
+    width: 100%;
+    height: 5rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.opciones {
+    width: 30%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.opciones a {
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*                      SECCIONES 1                           */
+.seccion1 {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+
+}
+
+.seccion1 article {
+    height: 100%;
+    width: 40%;
+    margin: 0px 30px;
+}
+
+.seccion1 aside {
+    height: 100%;
+    width: 60%;
+    margin: 0px 30px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    width: 60%;
+    height: 80%;
+    background-color: rgb(77, 13, 81);
+}
+.formulario form{
+    width: 100%;
+    height: 100%;
+    display: grid;    
+}
+.formulario input{
+    width: 90%;
+    height: 40px;
+}
+.formulario label{
+    width: 100%;
+    height: 30px;
+}
+
+
+
+
+
+/*                      SECCIONES
+2                           */
+.seccion2 {
+
+    width: 100%;
+    height: 15rem;
+    text-align: center;
+}
