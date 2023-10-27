@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <title>Ayuda</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/s.css' %}">
+    <link rel="icon" href="{% static 'logo.png' %}">
+</head>
+<body>
+    <header class="header">
+        <div class="opciones">
+            <ul>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">registrarse</a></li>
+                <li><a href="#">ayuda</a></li>
+                <li><a href="#">xxxx</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="#" alt="usm">
+            <img src="{% static 'logo.png' %}" alt="feminismo">
+        </div>
+        </div>
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="caja-grande">
+                <div class="caja-chica">
+                    <img src="{% static 'fondo.png' %}" class="fondo">
+                    <div class="texto">
+                        <p>Esta pagina web fue creada con el proposito de proveer un espacio en donde las mujeres puedan postear sus experiencias estudiando carreras universitarias, y con la conexión a una API, se extrae el sentimiento general de cada publicación, aqui les presentamos unos links utiles:</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="https://learn.meaningcloud.com/developer/sentiment-analysis/2.1/doc/what-is-sentiment-analysis">
+                        <span class="circulo1 circulo">
+                            <div class="t">
+                                <h1>API</h1>
+                            </div>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="circulo2 circulo">
+                            <div class="t">
+                                <h1>Opción 2</h1>
+                            </div>
+                        </span>
+                    </a>
+                    <a href="#">
+                        <span class="circulo3 circulo">
+                            <div class="t">
+                                <h1>Opción 3</h1>
+                            </div>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
