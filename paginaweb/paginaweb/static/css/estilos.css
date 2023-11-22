@@ -1,139 +1,139 @@
 body {
-    background: rgb(170, 41, 215);
-    background: linear-gradient(0deg, rgba(170, 41, 215, 1) 0%, rgba(141, 37, 178, 1) 16%, rgba(112, 29, 141, 1) 39%, rgba(82, 21, 104, 1) 60%, rgba(48, 11, 60, 1) 81%, rgba(3, 0, 4, 1) 100%);
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
+  background: rgb(170, 41, 215);
+  background: linear-gradient(0deg, rgba(170, 41, 215, 1) 0%, rgba(141, 37, 178, 1) 16%, rgba(112, 29, 141, 1) 39%, rgba(82, 21, 104, 1) 60%, rgba(48, 11, 60, 1) 81%, rgba(3, 0, 4, 1) 100%);
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
 
-    font-size: 20px;
-    color: white;
+  font-size: 20px;
+  color: white;
 }
 
 
 /*             HEADER                */
 .header {
-    width: 100%;
-    height: 5rem;
+  width: 100%;
+  height: 5rem;
 
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .opciones {
-    width: 30%;
-    margin: 20px;
-    display: flex;
-    align-items: center;
-    list-style-type: none;
+  width: 30%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
 }
 
 .opciones a {
-    font-size: 20px;
-    text-decoration: none;
-    margin-right: 40px;
-    color: white;
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 40px;
+  color: white;
 }
 
 .logo {
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
 /*                      SECCIONES 1                           */
 .seccion1 {
-    width: 100%;
-    height: 35rem;
-    display: flex;
-    margin-top: 30px;
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  margin-top: 30px;
 }
 
 
 .seccion1 article {
-    height: 100%;
-    width: 50%;
-    margin: 0px 30px;
-    text-align: center;
+  height: 100%;
+  width: 50%;
+  margin: 0px 30px;
+  text-align: center;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
 article p {
-    padding: 0px 30px;
-    font-size: 30px;
+  padding: 0px 30px;
+  font-size: 30px;
 
 }
 
 .seccion1 aside {
-    height: 100%;
-    width: 50%;
-    margin: 0px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  width: 50%;
+  margin: 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .formulario {
-    width: 25rem;
-    height: 80%;
-    background-color: rgb(181, 37, 192);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    box-shadow: 10px 10px 10px 0px rgba(0.5, 0.5, 0, 0.8);
+  width: 25rem;
+  height: 80%;
+  background-color: rgb(181, 37, 192);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px 0px rgba(0.5, 0.5, 0, 0.8);
 
 }
 
 .formulario form {
-    width: 80%;
-    height: 90%;
-    display: grid;
+  width: 80%;
+  height: 90%;
+  display: grid;
 }
 
 .formulario .bienvenida {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
 
 }
 
 .formulario input {
-    width: 100%;
-    height: 30px;
+  width: 100%;
+  height: 30px;
 }
 
 .formulario label {
-    width: 100%;
-    height: 30px;
+  width: 100%;
+  height: 30px;
 }
 
 .formulario input {
-    background-color: rgb(196, 177, 177);
-    border: none;
-    border-radius: 5px;
-    margin-top: 5px;
-    padding-left: 5px;
+  background-color: rgb(196, 177, 177);
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding-left: 5px;
 }
 
 .formulario a {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    text-decoration: none;
-    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-decoration: none;
+  color: white;
 }
 
 .formulario a:hover {
-    color: rgb(0, 255, 0);
+  color: rgb(0, 255, 0);
 }
 
 
@@ -143,7 +143,7 @@ article p {
 2                           */
 .seccion2 {
 
-    width: 100%;
-    height: 15rem;
-    text-align: center;
+  width: 100%;
+  height: 15rem;
+  text-align: center;
 }

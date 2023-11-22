@@ -18,7 +18,12 @@ from django.contrib import admin
 from django.urls import path
 from .views import *
 
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home)
+    path('', home),
+    path('foro/', foro),
+    path('api/', api),
+    path('foro/<uuid:post_id>', post)
 ]
