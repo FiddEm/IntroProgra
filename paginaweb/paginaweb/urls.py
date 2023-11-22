@@ -25,5 +25,6 @@ urlpatterns = [
     path('', home),
     path('foro/', foro),
     path('api/', api),
-    path('foro/<uuid:post_id>', post)
+    path('foro/<uuid:post_id>', post),
+    path('ayuda/', ayuda),
 ]

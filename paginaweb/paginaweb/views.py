@@ -45,3 +45,7 @@ def api(req):
 
 
 
+
+def ayuda(req):
+    ctx = {'nose':'que'}
+    return render(req, 'ayuda.html', ctx)
