@@ -49,3 +49,11 @@ def api(req):
 def ayuda(req):
     ctx = {'nose':'que'}
     return render(req, 'ayuda.html', ctx)
+
+def iconos(req):
+    ctx = {'a':'b'}
+    return render(req, 'iconos.html', ctx)
+
+def registro(req):
+    ctx = {'d':'f'}
+    return render(req, 'registro.html', ctx)

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="iconos.css">
+    {% load static %}
+</head>
+<body>
+    <header class="header">
+        <div class="opciones">
+            <ul>
+                <li><a href="">inicio</a></li>
+                <li><a href="/registro">registrarse</a></li>
+                <li><a href="/ayuda">ayuda</a></li>
+                <li><a href="/foro">foro</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="#" alt="usm">
+            <img src="{% static 'logo.png' %}" alt="feminismo">
+        </div>
+        </div>
+    </header>
+    <div class="image-container">
+        <img src="{% static 'feliz.svg' %}" alt="Imagen 1">
+        <p>Este icono se mostrará cuando el comentario entregado sea feliz, o sea un sentimiento positivo en general</p>
+    </div>
+
+    <div class="image-container">
+        <img src="{% static 'triste.svg' %}" alt="Imagen 2">
+        <p>Este icono se mostrará cuando el comentario entregado sea triste, o sea un sentimiento negativo en general</p>
+    </div>
+
+    <div class="image-container">
+        <img src="{% static 'neutro.svg' %}" alt="Imagen 3">
+        <p>Este icono se mostrará cuando el comentario entregado sea neutro, o no se pueda descifrar el sentimiento general</p>
+    </div>
+</body>
+</html>

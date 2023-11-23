@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <title>Registro</title>
+    <link rel="stylesheet" href="{% static 'css/registro.css' %}">
+</head>
+<body>
+    <header class="header">
+        <div class="opciones">
+            <ul>
+                <li><a href="">inicio</a></li>
+                <li><a href="/registro">registrarse</a></li>
+                <li><a href="/ayuda">ayuda</a></li>
+                <li><a href="/foro">foro</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="#" alt="usm">
+            <img src="{% static 'logo.png' %}" alt="feminismo">
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="profile-container">
+            <h1>Registrarse</h1>
+            <form>
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br>
+
+                <label for="pass">Contraseña:</label><br>
+                <input type="pass" id="pass" name="pass"><br>
+                <input type="submit" value="Save">
+            </form>
+        </div>
+    </main>
+</body>
+</html>

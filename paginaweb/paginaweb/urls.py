@@ -27,4 +27,6 @@ urlpatterns = [
     path('api/', api),
     path('foro/<uuid:post_id>', post),
     path('ayuda/', ayuda),
+    path('iconos/', iconos),
+    path('registro/', registro),
 ]
