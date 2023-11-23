@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foro</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/foro.css/' %}">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="#" alt="#"></div>
+        <div class="header">
+            <a href="#">Mi cuenta</a>
+            <a href="#">Opciones</a>
+            <a href="#">Ayuda</a>
+        </div>
+
+    </header>
+
+    <!--        --------------------- -->
+
+
+    <section class="seccion1">
+        <h1>BIENVENIDO AL FORO</h1>
+    </section>
+
+    <!-- ------------------------------- -->
+
+
+    <section class="seccion2">
+        <div class="base">
+            <div class="header">
+                <h1>Publica tu comentario</h1>
+            </div>
+            <form method="post" action="/api/" class="comentario">{% csrf_token %}
+                <input name="comentario" type="text">
+                <div>
+                    <a href="#">a</a>
+                    <a href="#">b</a>
+                    <a href="#">c</a>
+                </div>
+            </form>
+            
+            <div class="publicaciones">
+                
+                {% for post in posteos %}
+                <article>
+                    <div class="sentimiento">
+                        <img src="{{post.img}}" alt="">
+                    </div>
+                    <aside>{{post.text}}</aside>
+                    <div class="likes">{{post.likes}}</div>
+                    <a href="/foro/{{post.post_id}}">VER</a>
+                </article>
+                {% endfor %}
+
+                
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
